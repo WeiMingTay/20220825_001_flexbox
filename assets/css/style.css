@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkslategray;
+}
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+}
+section {
+    background-color: #fff;
+    margin: 2rem 10rem;
+}
+.gallerie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img {
+    margin: .1rem;
+    width: 150px;
+    height: 150px;
+}
